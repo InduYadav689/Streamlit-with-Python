@@ -1,0 +1,5 @@
+import streamlit as st
+w=st.selectbox('what are your favourite food?',options=('Roti','Parota','chicken','dal','charu'))
+st.write(w)
+r=st.multiselect('what is your favourite game?',options=('chess','Hand ball','Jumping','dance'))
+st.write(r)
